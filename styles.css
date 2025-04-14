@@ -52,6 +52,23 @@ a {
     background-color: #E5E7EB;
     color: #1F2937;
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 100px;
+}
+
+.quotation {
+    margin: 0;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.attribution {
+    margin: 0;
+    text-align: right;
+    font-weight: bold;
 }
 
 .signup {
