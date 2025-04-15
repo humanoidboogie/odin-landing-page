@@ -59,8 +59,44 @@ a {
     color: #E5E7EB;
 }
 
-.thumbnails {
+.thumbnail-container {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.thumbnails-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+.thumbnails {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.thumb {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.thumb-image {
+    border-radius: 16px;
+    border: 3px solid #3882F6;
+}
+
+.thumb-text {
+    width: 150px;
+    text-align: center;
+    font-size: 16px;
+    color: #1F2937;
+    font-weight: 350;
 }
 
 .quote {
